@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zhang_ruoyi-admin" />
+        <module name="zhang_ruoyi-generator" />
+        <module name="zhang_ruoyi-system" />
         <module name="zhang_ruoyi-common" />
+        <module name="zhang_ruoyi-framework" />
+        <module name="zhang_ruoyi-quartz" />
       </profile>
     </annotationProcessing>
   </component>
