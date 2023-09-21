@@ -1,0 +1,59 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# 忽略操作系统生成的文件 #
+###########################
+.DS_Store                 # macOS 系统文件
+Thumbs.db                 # Windows 系统文件
+ehthumbs.db               # Windows 系统文件
+desktop.ini               # Windows 系统文件
+$RECYCLE.BIN/             # Windows 回收站
+
+# 忽略编辑器和 IDE 生成的文件 #
+###############################
+.vscode/                  # Visual Studio Code 配置文件
+.idea/                    # IntelliJ IDEA 配置文件
+*.suo                     # Visual Studio Solution 文件
+*.sln                     # Visual Studio Solution 文件
+*.swp                     # Vim 临时文件
+
+# 忽略依赖管理工具生成的文件和目录 #
+#####################################
+node_modules/              # Node.js 依赖包
+vendor/                   # Composer 依赖包 (PHP)
+.env                      # 环境变量配置文件
+
+# 忽略日志和缓存文件 #
+#######################
+logs/                     # 应用程序日志
+*.log                     # 日志文件
+npm-debug.log*            # npm 调试日志
+yarn-debug.log*           # Yarn 调试日志
+yarn-error.log*           # Yarn 错误日志
+**/logs/**                # 任意子目录下的日志文件
+
+# 忽略编译输出和构建目录 #
+###########################
+/dist/                    # 构建输出目录
+/out/                     # 编译输出目录
+/build/                   # 构建目录
+*.egg-info/               # Python egg 信息
+
+# 忽略临时文件和临时目录 #
+###########################
+.tmp/                     # 临时文件目录
+.temp/                    # 临时目录
+.temp-*                   # 匹配任意临时文件/目录
+
+# 忽略个人设置文件 #
+#######################
+*.swp                     # Vim 临时文件
+*.swo                     # Vim 临时文件
+*.swn                     # Vim 临时文件
+*.swm                     # Vim 临时文件
