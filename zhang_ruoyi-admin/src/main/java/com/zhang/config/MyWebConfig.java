@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class MyWebConfig implements WebMvcConfigurer {
     @Bean
-    public LocaleResolver LocaleResolver() {
+    public LocaleResolver localeResolver() {
         return new MyLocaleResolver();
     }
 }
