@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    li {
+        list-style-type: none;
+    }
+</style>
+<body>
+<div>
+    <li><a th:href="@{/user/home(id=1001,name=${myName})}">相对地址</a></li>
+</div>
+</body>
+</html>
